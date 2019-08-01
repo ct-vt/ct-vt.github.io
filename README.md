@@ -10,7 +10,7 @@
 * [Knowledge Components for the Computational Thinking Course.](ct-kcs.md)
 * [Interview Protocol for the Computational Thinking Course.](ct-protocol.md)
 * [Introduction to Programming in Python Youtube Series.](https://www.youtube.com/watch?v=bq1d_4En9DA&list=PLt2myKVmKfPZ4JYzWgA3KifoKCg8piszg)
-* [Visualizations related to iteration](ct-iteration-visualizations.html)
+* [Visualizations related to iteration](iterviz/ct-iteration-visualizations.html)
 
 # More About CORGIS
 
