@@ -1,0 +1,129 @@
+<p><span>In real life people have and use a variety of list-like abstractions: shopping lists, bucket lists, and to-do lists, to name a few. These abstractions and the way they are used have two things in common:</span></p>
+<ul>
+<li><span>the list contains items of similar character (i.e., the shopping list contains things that can be found in a store, the to-do list has tasks that need to be done), and</span></li>
+<li><span>there are actions taken for each item on the list (i.e., find and purchase an item on the shopping list, do a task on the to-do list).</span></li>
+</ul>
+<p><span>The shopping list is an abstraction because the items on the list are the <span style="text-decoration: underline;">names</span> of the real-world things to be purchased, not the <span style="text-decoration: underline;">actual</span> things themselves.</span></p>
+<p><span>In a similar way, computers have and use real-world abstractions by combining:</span></p>
+<ul>
+<li><span>lists - data values of the same type (e.g., type int) representing a real-world abstraction, and</span></li>
+<li><span>list iteration - the algorithmic device to process the elements of the list.</span></li>
+</ul>
+<p>The term&nbsp; "list iteration" means <strong>performing the same processing steps on each element of the list, one element at a time.&nbsp;</strong></p>
+<p><img style="padding: 0 15px; float: right;" src="https://canvas.vt.edu/courses/96922/files/10269781/preview" alt="NetLogo-Iteration-Sign.png" width="164" height="213" data-api-endpoint="https://canvas.vt.edu/api/v1/courses/96922/files/10269781" data-api-returntype="File" /></p>
+<p>An important fact is that the <span style="text-decoration: underline;">same</span> list iteration can process a list with only a few value or a list with&nbsp;millions of values! The ability of list iteration to process a list of any size gives computing its "power"<span style="font-size: 1rem;">. Many machines generate physical power by performing a mechanical action repetitively: the repetitive motion of the pistons in an internal combustion engine generates the physical power needed to move a vehicle. By analogy, the repetitive processing of list items&nbsp;by an algorithm using list iteration generates the information processing power needed to analyze abstractions having many - perhaps a very large number - of instances. Imagine computing the average household income from&nbsp;</span><span style="font-size: 1rem;">the U.S. Census data. The&nbsp;abstraction of a household is a list of household's incomes, but there are tens of millions of instances of this abstraction. List iteration is critical in this case because it allows the same steps to be repeated for each instance. Using list iteration simple quantitative measures, like an average, can be computed for the values in the list.</span></p>
+<div class="figure align-center" style="text-align: center;">
+<h2 style="text-align: left;">List Iteration: An Interactive Introduction</h2>
+<p style="text-align: left;">Interactive animations will be used to explore the dynamic process of list iteration in three steps:</p>
+<p style="text-align: left; padding-left: 30px;">Step 1: an "iteration variable" holds each successive value of the list; a set of actions are performed with each new value</p>
+<p style="text-align: left; padding-left: 30px;">Step 2: the value of the iteration variable can be used by the actions performed on each new value</p>
+<p style="text-align: left; padding-left: 30px;">Step 3: the iteration variable and other variables in the program's state can be used in the actions to compute a quantitative measure of the list.</p>
+<p style="text-align: left;">Generally, in the animations:</p>
+<ul>
+<li style="text-align: left;">a list is drawn as a green horizontal set of adjacent boxes,</li>
+<li style="text-align: left;">actions are drawn as blue rounded rectangles ,</li>
+<li style="text-align: left;">the list iteration is a complex shape with
+<ul>
+<li style="text-align: left;">the words "for each item" above a window through which a value in the list is visible, and</li>
+<li style="text-align: left;">an open notch with the label "do" to hold the actions taken on each step of the list iteration.</li>
+</ul>
+</li>
+</ul>
+<p style="text-align: left;">Each animation has controls to move the animation forward (&gt;), backward (&lt;), to the beginning (&lt;&lt;), or to the end (&gt;&gt;). A pair of numbers in the upper left-hand corner shows which slide is currently being viewed and how many slides there are in the animation.</p>
+<p style="text-align: left;"><strong><span style="font-size: 14pt;">Step 1:&nbsp;an "iteration variable" holds each successive value of the list; a set of actions are performed with each new value.</span></strong></p>
+<p style="text-align: left;">&nbsp;</p>
+<iframe src="https://opendsa-server.cs.vt.edu/embed/iteration1CON" width="100%" height="600"></iframe>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 14pt;"><strong>Step 2:&nbsp;the value of the iteration variable can be used by the actions performed on each new value.</strong></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<iframe src="https://opendsa-server.cs.vt.edu/embed/iteration2CON" width="100%" height="600"></iframe>
+<p style="text-align: left;"><span style="font-size: 14pt;"><strong>Step 3:&nbsp;the iteration variable and other variables in the program's state can be used in the actions to compute a quantitative measure of the list.</strong></span></p>
+<p style="text-align: left;">Computing a quantitative measure requires two ideas:</p>
+<ul>
+<li style="text-align: left;">accumulation, and</li>
+<li style="text-align: left;">initialization.</li>
+</ul>
+<p style="text-align: left;">Accumulation means that an algorithm collects information on each cycle of the iteration that is remembered from one cycle to the next. For example,&nbsp;consider how to find the sum of all the values in a list. How is it possible to find the sum if the iteration variable only gives one value in the list? The answer is that the algorithm needs an additional "accumulation" variable whose value is the sum of all the values seen prior to the "current" element. On each cycle of the iteration, the accumulation variable is updated by including in its value the value of the iteration variable.&nbsp;</p>
+<p style="text-align: left;">Initialization means that the accumulation variable must be given an initial value before the iteration begins. Initialization is necessary so that accumulation variable has a "starting point" for the updating that is done on each cycle of the iteration.</p>
+<p style="text-align: left;">The ideas of accumulation and initialization are illustrated in the following interactive animation that computes a simple quantitative measure (the sum of the value in a list).</p>
+<iframe src="https://opendsa-server.cs.vt.edu/embed/iteration3CON" width="100%" height="600"></iframe>
+<h2 style="text-align: left;"></h2>
+<h2 style="text-align: left;">Lists in BlockPy</h2>
+<p style="text-align: left;">An example of a list in BlockPy is&nbsp;shown in the following figure. The arrows in this figure show how the blocks would be assembled to form a list of three numbers that is set as the value for a&nbsp;property. The <em>create list with</em> block is found in the <em>Lists</em> menu. The numbers are in the <em>Values</em> menu and the&nbsp;set block is in the <i>Variable&nbsp;</i>menu.</p>
+<table style="margin-left: auto; margin-right: auto;" border="2">
+<tbody>
+<tr>
+<td><img src="https://canvas.vt.edu/courses/96922/files/10269695/preview" alt="List-three-elements.png" width="314" height="126" data-api-endpoint="https://canvas.vt.edu/api/v1/courses/96922/files/10269695" data-api-returntype="File" /></td>
+</tr>
+</tbody>
+</table>
+<span class="p"><span class="p"><strong>Creating a List</strong></span></span></div>
+<p>&nbsp;By default the <em>create list with</em> block creates a list with slots for three elements. Of course, a list with more or fewer slots for elements may be needed. For this reason the <em>create list with</em> block can be edited to add or remove slots.The figure below shows an example of the editing</p>
+<table style="margin-left: auto; margin-right: auto; height: 279px;" border="2" width="677">
+<tbody>
+<tr>
+<td><img src="https://canvas.vt.edu/courses/96922/files/10269691/preview" alt="List-editing-list-block.png" width="318" height="196" data-api-endpoint="https://canvas.vt.edu/api/v1/courses/96922/files/10269691" data-api-returntype="File" /></td>
+<td><img src="https://canvas.vt.edu/courses/96922/files/10270013/preview" alt="List-editing-list-block-added.png" width="306" height="203" data-api-endpoint="https://canvas.vt.edu/api/v1/courses/96922/files/10270013" data-api-returntype="File" /></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><strong>Editing the <em>create list with</em> block</strong></p>
+<p>To begin adding new list elements click on the blue colored gear symbol in front of the word "create" on the <em>create list with</em> block. This pops up the editing menu shown in the left part of the figure above. The block labelled property_name can be dragged from the gray area to the list grouping. The left part of the above figure shows a highlighted <em>property_name</em> block in the act of being dragged in this way. When the <em>property_name</em> block is inserted into the list group a new slot is added to the <em>create list</em> with block. As many slots as needed can be added in this way by repeatedly dragging a <em>property_name</em> block from the gray area to the list group. When done adding new list elements, click on the blue colored gear symbol to collapse the editing menu.&nbsp;</p>
+<p>To remove list elements begin by clicking on the blue colored gear icon. In the editing menu move a <em>property_name</em> block from the list group to the gray area to its left. This will shorten the list group and remove the corresponding slot from the <em>create list with</em> block.&nbsp;</p>
+<h2>List Iteration in BlockPy</h2>
+<h3>Example 1.</h3>
+<p>Below is a live BlockPy workspace that illustrates a list and list iteration. This program prints each element of a list that has five values. This program expresses in BlockPy the same iteration as the second interactive animation above. The iteration block is in the <em>Iteration</em> menu and the print block is in the <em>Output</em> menu.</p>
+<p>Run this program (using the <em>Run</em> button) and observe the output displayed in the Printer box (immediately above the BlockPy canvas).&nbsp;</p>
+<p><iframe style="width: 100%; height: 600px;" title="Display list elements" src="https://think.cs.vt.edu/assignments/load?assignment_id=64&amp;embed=True" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe></p>
+<p>Experiment with the above workspace to</p>
+<ul>
+<li><span style="font-size: 0.875rem; line-height: 1.5;">add and remove values from the list,</span></li>
+<li><span style="font-size: 0.875rem; line-height: 1.5;">change the values in the list,&nbsp;</span></li>
+</ul>
+<p>The <em>Reset</em> button can be used to restore the workspace to its original condition. Resolve any questions or issues that you encounter in working with this simple list.</p>
+<h3>Example 2.</h3>
+<p>Below&nbsp;is a second BlockPy work space that a program to compute the sum of the elements in a list. This program expresses in BlockPy the same iteration as the third interactive animation above. The blocks to perform addition (and other mathematical operations) are in the <em>Calculation</em> menu.</p>
+<p>Run the example algorithm and observe the output that it generates in the Printer area at the top of the workspace.</p>
+<p>&nbsp;<iframe style="width: 100%; height: 600px;" title="Example of list iteration" src="https://think.cs.vt.edu/assignments/load?assignment_id=66&amp;embed=True" width="300" height="150" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe></p>
+<p>This algorithm proceeds through five iteration cycles as shown in the following table. Notice that on each iteration the value of the iteration variable changes. On each iteration the iteration variable&nbsp;has the same value as an item on the list.</p>
+<table style="margin-left: auto; margin-right: auto; height: 122px;" border="2" width="611">
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Iteration Cycle</strong></td>
+<td style="text-align: center;"><strong>Value of<br />iteration variable</strong></td>
+<td style="text-align: center;"><strong>Value of the Total Variable</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">---</td>
+<td style="text-align: center;">---</td>
+<td>&nbsp;0&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4</td>
+<td>&nbsp;4 = 0 + 4</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">13</td>
+<td>17 = 4 + 13</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">6</td>
+<td><span>23 = 17 + 6</span></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">9</td>
+<td><span>32 = 23 + 9</span></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">11</td>
+<td><span>43 = 32 + 11</span></td>
+</tr>
+</tbody>
+</table>
+<p>The critical importance of iteration is that it works for lists of any length.<strong> Using the above work space add several more elements to the list and observe that the iteration without change works for this longer list.</strong>&nbsp;</p>
+<p>&nbsp;</p>
