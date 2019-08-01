@@ -51,3 +51,5 @@ The course explores the social impacts of computational systems using a number o
 * "I originally signed up for it to fulfill Area 5, or one of my Area 5, and also it sounded like fun...I got an email about this class and it sounded really fun, and instead of just fulfilling an Area 5, it was like, **"You get to do a project that is in your own major,"** and all this kind of stuff you get to do is very individual-based. I really liked the appeal of that so I ended up switching into this one. I feel like it's good skills to have in an increasingly technological society."
 * "**I liked it more than I thought I would!!** And the staff was very very helpful."
 
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/dYyis6WLVus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
