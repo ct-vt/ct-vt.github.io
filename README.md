@@ -1,8 +1,8 @@
 # Tools
 
-* CT@VT Course
-* CORGIS
-* BlockPy
+* [CT@VT Course](ct/course_materials.md)
+* [CORGIS](https://realtimeweb.github.io/corgis2/)
+* [BlockPy](https://www.blockpy.com)
 
 # Resources
 
