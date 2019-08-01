@@ -51,8 +51,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Austin Cory Bart**  
-![](/people/cory.jpg)</td>
+<td style="width:15%">**Austin Cory Bart**  ![](/people/cory.jpg)</td>
 
 <td>Primary Developer (CORGIS, BlockPy)  
 
@@ -66,8 +65,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Ryan Whitcomb**  
-![](/people/whitcomb.jpg)</td>
+<td style="width:15%">**Ryan Whitcomb**  ![](/people/whitcomb.jpg)</td>
 
 <td>Developer (CORGIS)  
 
@@ -79,8 +77,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Javier Tibau**  
-![](/people/tibau.jpg)</td>
+<td style="width:15%">**Javier Tibau**  ![](/people/tibau.jpg)</td>
 
 <td>Developer (BlockPy)  
 
@@ -93,8 +90,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Luke Gusukuma**  
-![](/people/luke.jpg)</td>
+<td style="width:15%">**Luke Gusukuma**  ![](/people/luke.jpg)</td>
 
 <td>Developer (BlockPy)  
 
@@ -106,8 +102,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Dennis Kafura**  
-![](/people/kafura.jpg)</td>
+<td style="width:15%">**Dennis Kafura**  ![](/people/kafura.jpg)</td>
 
 <td>Professor  
 
@@ -121,8 +116,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Clifford A. Shaffer**  
-![](/people/shaffer.jpg)</td>
+<td style="width:15%">**Clifford A. Shaffer**  ![](/people/shaffer.jpg)</td>
 
 <td>Professor  
 
@@ -136,8 +130,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Eli Tilevich**  
-![](/people/tilevich.jpg)</td>
+<td style="width:15%">**Eli Tilevich**  ![](/people/tilevich.jpg)</td>
 
 <td>Professor  
 
@@ -151,8 +144,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Omar Saleem**  
-![](/people/omar.jpg)</td>
+<td style="width:15%">**Omar Saleem**  ![](/people/omar.jpg)</td>
 
 <td>Former Developer (CORGIS)  
 
@@ -164,8 +156,7 @@ Publications related to BlockPy:
 
 <tr>
 
-<td style="width:15%">**Jason Riddle**  
-![](/people/jason.jpg)</td>
+<td style="width:15%">**Jason Riddle**  ![](/people/jason.jpg)</td>
 
 <td>Former Developer (CORGIS)  
 
