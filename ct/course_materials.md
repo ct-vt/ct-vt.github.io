@@ -18,11 +18,19 @@ The Computational Thinking curriculum is organized around several key ideas and 
 
 * **Collaboration**: Students are assigned into small (4-6 person) teams that are called "cohorts". Cohort members are seated together and are strongly encouraged to act as a small learning community - helping and encouraging each other. Each cohort writes, and the members sign, a "contract" stating the expectations of the cohort's members. The cohorts are multi-disciplinary; whenever possible no two students in a cohort are from the same academic major. The blending of disciplinary prospects allows students to benefit from the intuitions and motifs of different academic majors while they are engaged in active learning.
 
+![Figure 1. Students work in collaborative cohorts](ctatvt-cohorts.png)
+
 * **Project-oriented**: Projects are the primary means by which students demonstrate mastery of the course concepts and skills. In each project the student selects the data that they will use, defines the question(s) to be answered using this data, and employs the appropriate tools or programming to answer the questions. The answers to the questions are the student interpretations of quantitative measures (e.g. means) or as visualizations (e.g., hisograms). There are four project across the semester. The class time in the last three weeks of the course are devoted to the final project. The final project is presented in the form of a 5-6 video that is graded by a published rubric.
+
+![Figure 2. Students Answer Self-directed, Real-world Questions in the Final Project](ctatvt-final-projects.png)
 
 * **Core Concepts**: The course is grounded in the student of two primary computing concepts: abstraction and algorithms. Abstraction enables a student to "see the world" as a collection of information properties relevant to needs of some problem-solver. By constructing algorithms, students develop the ability to automatically manipulate the abstraction to answer questions about the real world. The following "table of computational elements" concretely defines the computing concepts encountered in the class. In addition, students consider the social impacts of computing by examining how computing technology effects the lives of people and identifying apprpriate ethical principles that could be used to justify alternative uses of the technology.
 
+![Figure 3. A Computational Table of Elements](ctatvt-table-elements.png)
+
 * **Spiral Design**: The material in the course is unfolded in a spiral fashion. This organization allows students to see the core ideas - abstraction, algorithms, social impacts - at progressively more refined stages. The spiral structure is tied to the projects. Each cycle in the spiral ends with a (or the last cycle in two) project. An example of the progressive nature of the student's learning is illustrated by the projects: in the first (nano) project the student uses the algorithms embedded in a visualization tool; in the second (micro) project the student writes comparable algorithms in a block-based language. The in the final two projects (mini and final) the students write similar algorithms in Python.
+
+![Figure 4. The Flow of the Course is a Spiral](ctatvt-spiral-design.png)
 
 * **Data Science context**: A data science context is used to sustain student motivation. A wide variety data sets is available in the CORGIS library so that students can find data that is relevant to their interests or career needs. These data sets are used throughout the course - in classwork, homework, and the projects. Through student feedback we know that this approach is well-received by the students.
 
