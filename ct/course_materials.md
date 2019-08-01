@@ -27,3 +27,27 @@ The Computational Thinking curriculum is organized around several key ideas and 
 * **Data Science context**: A data science context is used to sustain student motivation. A wide variety data sets is available in the CORGIS library so that students can find data that is relevant to their interests or career needs. These data sets are used throughout the course - in classwork, homework, and the projects. Through student feedback we know that this approach is well-received by the students.
 
 * **Scaffolded Tools**: Learning about computing and programming can seem a daunting challenge, especially to non-STEM students who have no prior experience and have a tenuous grasp on quantitative methods. Through the spiral design and carefully crafted tools the learning is incremental, allowing students to build skill and confidence as they proceed. A critical technology used in the course is BlockPy. Using BlockPy students begin programming in a syntactically safe block-based languge and then gradually progress to programming in a carefully selected sub-set of Python.
+
+# Learning Objectives
+
+This course addresses four key objectives in the Quantitative and Computational Thinking domain.
+
+1. Explain the application of computational or quantitative thinking across multiple knowledge domains.
+2. Apply the foundational principles of computational or quantitative thinking to frame a question and devise a solution in a particular field of study.
+3. Identify the impacts of computing and information technology on humanity.
+4. Construct a model based on computational methods to analyze complex or large-scale phenomenon.
+
+The course explores the social impacts of computational systems using a number of case studies that demonstrate how computation creates new capabilities or influences the decision-making of people, organizations, and governments. Students are asked to identify the potential stakeholders who are affected in the case study and consider the economic, professional, personal, or organizational pressures that may influence their actions. This aspect of the course is intended to address two learning indicators.
+
+1. Identify ethical issues in a complex context.
+2. Articulate and defend positions on ethical issues in a way that is both reasoned and informed by the complexities of those situations.
+
+# Testimonials
+
+* "I really enjoyed this course. I felt very respected by my instructors and that they really wanted me to succeed. **I really enjoyed how this class was structured with a real focus on learning and not just testing.** It allowed me to not have to feel penalized by mistakes and that I really had the freedom to learn without the pressures of exams."
+* "**I thoroughly enjoyed this course.** I was happy to come to class every Tuesday and Thursday, and I really enjoyed working with my cohort. The work that was done was challenging, but completely doable. The teachers and TA's offered great help, and answered every question that I had to the fullest."
+* "Computational Thinking might not be my forte, but **I sure learned a lot** about it throughout this course!"
+* "This course is awesome and I have recommended it to all my friends. I felt **this course exemplifies how education should work**, engaging people in a way that is fun and not too stressful, while still teaching a ton of information."
+* "I originally signed up for it to fulfill Area 5, or one of my Area 5, and also it sounded like fun...I got an email about this class and it sounded really fun, and instead of just fulfilling an Area 5, it was like, **"You get to do a project that is in your own major,"** and all this kind of stuff you get to do is very individual-based. I really liked the appeal of that so I ended up switching into this one. I feel like it's good skills to have in an increasingly technological society."
+* "**I liked it more than I thought I would!!** And the staff was very very helpful."
+
