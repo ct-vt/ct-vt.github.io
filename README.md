@@ -1,8 +1,10 @@
 # Tools
 
 * [CT@VT Course](ct/course_materials.md)
-* [CORGIS](https://realtimeweb.github.io/corgis2/)
+* [CORGIS](https://corgis-edu.github.io/corgis/)
 * [BlockPy](https://www.blockpy.com)
+* [Pedal](https://pedal-edu.github.io/pedal/html/index.html)
+* [PythonSneks](https://acbart.github.io/python-sneks/)
 
 # Resources
 
