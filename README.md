@@ -1,10 +1,10 @@
 # Tools
 
-* [CT@VT Course](ct/course_materials.md)
-* [CORGIS](https://corgis-edu.github.io/corgis/)
-* [BlockPy](https://www.blockpy.com)
-* [Pedal](https://pedal-edu.github.io/pedal/html/index.html)
-* [PythonSneks](https://acbart.github.io/python-sneks/)
+* [CT@VT Course](ct/course_materials.md) - Computational Thinking course themed around Data Science aimed for non-computing majors
+* [CORGIS](https://corgis-edu.github.io/corgis/) - Collection of Real-World, Great, Interesting, dataSets
+* [BlockPy](https://www.blockpy.com) - Dual block/text web-based programming environment for Python with automatic feedback
+* [Pedal](https://pedal-edu.github.io/pedal/html/index.html) - A powerful architecture and toolkit for creating automatic feedback
+* [PythonSneks](https://acbart.github.io/python-sneks/) - An open-source, instructionally-design Python curriculum for CS1
 
 # Resources
 
