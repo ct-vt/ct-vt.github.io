@@ -172,5 +172,3 @@ Publications related to BlockPy:
 </tbody>
 
 </table>
-
-</div>
