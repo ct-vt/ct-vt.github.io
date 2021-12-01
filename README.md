@@ -58,7 +58,7 @@ Publications related to BlockPy:
 
 <td>Primary Developer (CORGIS, BlockPy)  
 
-*   Status: PhD student (Computer Science) at Virginia Tech
+*   Status: Assistant Professor at the University of Delaware
 *   Email: [acbart@vt.edu](mailto:acbart@vt.edu)
 *   Website: [www.acbart.com](http://www.acbart.com)
 
@@ -72,7 +72,7 @@ Publications related to BlockPy:
 
 <td>Developer (BlockPy)  
 
-*   Status: PhD student (Computer Science) at Virginia Tech
+*   Status: Visiting Assistant Professor at Virginia Tech
 
 </td>
 
@@ -110,7 +110,7 @@ Publications related to BlockPy:
 
 <td>Developer (BlockPy)  
 
-*   Status: PhD student (Computer Science) at Virginia Tech
+*   Status: Professor of Computer Science at Escuela Superior Politécnica del Litoral
 *   Website: [https://thirdlab.cs.vt.edu/people/javier-tibau/](https://thirdlab.cs.vt.edu/people/javier-tibau/)
 
 </td>
