@@ -4,7 +4,7 @@ The CT@VT course, also known as "Introduction to Computational Thinking", is an 
 
 # Try it Yourself!
 
-Interested in checking out our course? Visit [the example course](https://canvas.instructure.com/courses/1133362/) on Canvas!
+Interested in checking out our course? Visit [the example course](https://canvas.instructure.com/courses/1133362/modules) on Canvas!
 
 # Get the Materials!
 
